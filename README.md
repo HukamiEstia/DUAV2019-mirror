@@ -35,7 +35,7 @@ Check that docker is installed correctly:
 ```
 sudo docker run hello-world
 ```
-Otherwise, if you are in a hurry you can just run:
+**Otherwise, if you are in a hurry you can just run:**
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 $ sudo sh get-docker.sh
