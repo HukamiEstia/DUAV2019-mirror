@@ -40,7 +40,7 @@ sudo docker run hello-world
 curl -fsSL https://get.docker.com -o get-docker.sh
 $ sudo sh get-docker.sh
 ```
-Finally you can install nvidia docker(Optionnal):
+* Finally you can install nvidia docker(Optionnal):
 
 **Make sure you have installed the [NVIDIA driver](https://github.com/NVIDIA/nvidia-docker/wiki/Frequently-Asked-Questions#how-do-i-install-the-nvidia-driver).**
 
