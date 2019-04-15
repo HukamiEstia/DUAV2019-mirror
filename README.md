@@ -3,7 +3,8 @@
 
 ## Introduction
 
-This repo contains the structure, code, and tutos of our project. We tried to make it as reusable and understandable as possible. 
+This repository contains the structure, code, and tutos of our project. We tried to make it as reusable and understandable as possible. 
+We use Joseph Redmon's Darknet framework, with YOLO for detection. We build in docker to make the installation easier (with nvidia-docker for GPU use).
 
  #### Structure
  
