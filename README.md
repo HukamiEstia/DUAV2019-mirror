@@ -5,6 +5,43 @@
 
 This repo contains the structure, code, and tutos of our project. We tried to make it as reusable and understandable as possible. 
 
+ #### Structure
+ 
+ ```
+ .
+├── .gitignore
+├── .docker
+│   ├── Detector
+│   │   └── Dockerfile
+├── Detector
+│   ├── train.log
+│   ├── backup
+│   │   ├── darknet53.conv.74
+│   │   └── yolov3-tiny.conv.15
+│   ├── data
+│   │   ├── labels
+│   │   ├── obj.data
+│   │   ├── obj.names
+│   │   ├── test.txt
+│   │   └── train.txt
+│   ├── cfg
+│   │   ├── yolov3.cfg
+│   │   └── yolov3-tiny.cfg
+│   ├── Dataset
+│   ├── TestSet
+│   ├── Utils
+│   │   ├── clean_directory.py
+│   │   ├── plot_loss.py
+│   │   ├── split_directory.py
+│   └── darknet
+│   │   ├── ...
+├── media
+└── tmp
+
+ ```
+
+## Installation
+
 #### Requirements
 
 * First of all you will need to have Linux installed, we recommend Ubuntu if you are not familiar with linux.
@@ -60,14 +97,6 @@ Test nvidia-smi with the latest official CUDA image
 ```
 docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi
 ```
-
-darknet
-gazebo
-ardupilot
-labelImg
-
-
-## Installation
 
 clone git repo
 build darknet in docker for gpu
