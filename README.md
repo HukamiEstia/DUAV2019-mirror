@@ -4,7 +4,7 @@
 ## Introduction
 
 This repository contains the structure, code, and tutos of our project. We tried to make it as reusable and understandable as possible. 
-We use Joseph Redmon's Darknet framework, with YOLO for detection. We build in docker to make the installation easier (with nvidia-docker for GPU use).
+We use YOLO for detection, with Joseph Redmon's Darknet framework. Which we build and run in docker to make the installation easier (with nvidia-docker for GPU use).
 
  #### Structure
  
