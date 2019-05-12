@@ -43,6 +43,8 @@ We use YOLO for detection, with Joseph Redmon's Darknet framework. Which we buil
 
 ## Installation
 
+### This is all on Linux
+
 #### Requirements
 
 * First of all you will need to have Linux installed, we recommend Ubuntu if you are not familiar with linux.

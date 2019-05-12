@@ -3,3 +3,6 @@ Detector/Dataset/*
 Detector/backup/*
 Detector/TestSet/*
 .idea
+Dronekit/mav.parm
+Dronekit/mav.tlog
+Dronekit/mav.tlog.raw
