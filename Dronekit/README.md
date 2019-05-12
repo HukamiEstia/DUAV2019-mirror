@@ -105,10 +105,10 @@ In the first one start the drone simulation:
 dronekit-sitl copter-3.3 --home=43.443632, -1.553146,42,0
 ```
 
-In the second one open the connection between the drone and your computer:
+In the second one, open the connection between the simulated drone and your computer:
 
 ```
-python Scripts/mavproxy.py --master tcp:127.0.0.1:5760 --sitl 127.0.0.1:5501 --out 127.0.0.1:14550 --out 127.0.0.1:14551
+python mavproxy.py --master tcp:127.0.0.1:5760 --sitl 127.0.0.1:5501 --out 127.0.0.1:14550 --out 127.0.0.1:14551
 ```
 
 At this point you should open mission planner and check that it can connect to the drone. 
@@ -121,3 +121,20 @@ In the third prompt:
 python test_arm_and_takeoff.py
 ```
 
+**To test real situation**
+
+You need two prompt with your activated conda environnement.
+
+In the first, open the connection to the drone:
+
+```
+python mavproxy.py --master com6 --out 127.0.0.1:14550 --out 127.0.0.1:14551 
+```
+
+where "com6" should be replaced by the corresponding USB port on which you plugged your antenna.
+
+And in the second one, launch the control script:
+
+```
+python test_arm_and_takeoff.py
+```
