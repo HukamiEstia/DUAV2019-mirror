@@ -2,3 +2,4 @@ Detector/darknet/*
 Detector/Dataset/*
 Detector/backup/*
 Detector/TestSet/*
+.idea

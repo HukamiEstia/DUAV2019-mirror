@@ -1,12 +1,8 @@
 import numpy as np
-import argparse
-import imutils
 import time
 import cv2
-import os
 
 from dronekit import connect, Command, LocationGlobal, VehicleMode
-from pymavlink import mavutil
 
 def RunDetection(conn):
 
