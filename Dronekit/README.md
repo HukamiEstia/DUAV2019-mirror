@@ -121,7 +121,7 @@ In the third prompt:
 python test_arm_and_takeoff.py
 ```
 
-**To test real situation**
+**To test in real situation**
 
 You need two prompt with your activated conda environnement.
 
