@@ -91,7 +91,7 @@ python test_cam_connection.py
 
 We will now test that we are capable to connect dronekit to our drone and make it takeoff then wait for 30seconds and land.
 
-First we will test that we are capable to send command to a simulated drone, this time you will need 3 anaconda prompt, 
+First we will test that we are capable to send command to a simulated drone, **this time you will need 3 anaconda prompt**, 
 in each of them go to the dronekit directory and activate your duav environnement:
 
 ```
